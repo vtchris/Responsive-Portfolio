@@ -217,6 +217,10 @@ ul{
         margin:2px;
         height:250px;width:250px;    
     }
+    .stickyFooter{
+        position: fixed;
+        bottom:0;
+    }
     #divHeader-container{
         min-width: 260px;
         position: static;
