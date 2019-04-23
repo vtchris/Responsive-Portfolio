@@ -190,8 +190,7 @@ ul{
         text-align: center;
     }  
     .content{              
-        margin:5px;        
-        margin-bottom: 50px;
+        margin:5px;           
         margin-top: 0px;
         min-height: 185px;min-width: 300px;
         padding: 5px;
@@ -237,7 +236,7 @@ ul{
 @media screen and (min-width: 641px) and (max-width: 768px){
     .content{              
         margin:5px;        
-        margin-bottom: 25px;
+        margin-bottom: 55px;
         margin-top: 110px; 
         min-height: 185px;min-width: 300px;
         padding: 5px;       
