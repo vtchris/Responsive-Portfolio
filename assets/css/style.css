@@ -191,7 +191,7 @@ ul{
     }  
     .content{              
         margin:5px;           
-        margin-top: 0px;
+        margin-bottom:55px;margin-top: 0px;
         min-height: 185px;min-width: 300px;
         padding: 5px;
         text-align: center;
@@ -234,6 +234,9 @@ ul{
 }
 /* TABLET RESPONSIVE STYLES */
 @media screen and (min-width: 641px) and (max-width: 768px){
+    footer{
+        position: relative;
+    }
     .content{              
         margin:5px;        
         margin-bottom: 55px;
