@@ -1,0 +1,250 @@
+html{
+    height:100%;
+}
+body{
+    background-image: url("../images/ep_naturalwhite.png");  
+    color: #777777;
+    font-family: 'Arial', 'Helvetoca Neue', Helvetica, sans-serif;
+    margin: 0px; 
+    padding: 0px;    
+    width: 100%;      
+   overflow-x:hidden;
+}
+button{
+    background-color: #4aaaa5;
+    border: #4aaaa5 1px solid;
+    color:#ffffff;   
+    padding:5px;
+    width:100px;
+}
+button:hover{
+    background-color: #a6d8d6;
+}
+figure{
+    display: inline-block;
+    margin:5px;
+    position: relative;
+}
+figure h3{
+    background-color: #4aaaa5;
+    box-sizing: border-box;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    width:150px;
+    position: absolute;
+    bottom: 0px;
+}
+footer{
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    bottom: 0;   
+    position: fixed;
+    width:100%;height:50px;    
+}
+h1, h2, h3, h4, h5{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;    
+}
+h1{
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;    
+    margin: 0px;
+    padding: 25px;
+    width: 200px;
+}
+header{   
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+    width:982px;          
+}
+img{    
+    margin-right: 15px;    
+}
+nav{
+    position: absolute;
+    top:20%;right:0;        
+}
+nav a {
+    color:#777777;
+    display: inline-block;    
+    text-decoration: none;
+    width:70px;
+}
+nav a:hover{
+    font-weight: bold;
+}
+nav li{
+    display: inline-block;
+    text-align: center;
+}
+nav li:not(:first-child):before {
+    content: " | ";
+}
+input[type="text"]{
+    box-sizing: border-box;    
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;    
+}
+input[type="text"]::placeholder{
+    opacity: .6;    
+}
+label{
+    display: inline-block;
+    padding: 8px 8px 8px 0px;
+}
+.content p{
+    text-align: left;
+}
+textarea{    
+    box-sizing: border-box;
+    height: 100px; width:100%;
+    margin-bottom: 10px;
+    overflow: y;
+}
+ul{
+    list-style-type: none; 
+    padding-left:0px;
+}
+.content{
+    position: relative;
+    background-color: #ffffff;
+    border: #dddddd 1px solid;
+    margin: auto;
+  
+   margin-top: 110px;
+   margin-bottom: 25px;
+    min-height: 185px;
+   /* overflow: auto;*/
+    padding: 10px;
+    width: 960px;    
+}
+.floatLeft{
+    float: left;
+    display: block;
+    
+}
+.imgLink{    
+    width:150px;height:150px;
+}
+.portfolio{
+   
+    min-width:152px;
+}
+.relativePosition{
+    position: relative;
+}
+#divHeader-container{
+    background-color: #ffffff;
+    border-bottom: #cccccc 2px solid;       
+    margin:0px;
+    margin-bottom: 40px;
+    padding:0px;
+    width: 100%;   
+    position: fixed;
+    top:0px;  
+}
+/* PHONE RESPONSIVE STYLES */
+@media screen and (max-width: 640px){
+    figure{
+        position: relative;
+    }
+    figure h3{      
+        font-size: 20px;
+        /*left:2px; */       
+        width:250px;        
+    }
+    footer{
+        position: relative;
+    }
+    header{
+        width: 100%;
+     }   
+    header h1{
+        display: block;
+        position: static; 
+        text-align: center;
+        width:100%;        
+    } 
+    nav{
+        background-color: white;
+        padding-bottom: 20px;
+        padding-top:10px;               
+        top:70px; left:0px;              
+        width:100%;
+    }  
+    ul{
+        margin:1px;
+        text-align: left;
+    }  
+    nav ul{
+        text-align: center;
+    }  
+    .content{              
+        margin:5px;        
+        margin-bottom: 25px;
+        margin-top: 0px;
+        min-height: 185px;min-width: 300px;
+        padding: 5px;
+        text-align: center;
+        width:auto;        
+    }
+    .content h2{        
+        text-align: center;
+        width:100%;
+    }
+    .content img{
+        margin: 0 auto;
+        margin-bottom:20px;
+        height:250px;width:250px;
+    } 
+    .content p {
+      margin:5px;
+      margin-bottom: 16px;
+    }
+    .floatLeft{
+        clear: both;
+        float: none;
+    }
+    .imgLink{
+        margin:2px;
+        height:250px;width:250px;    
+    }
+    #divHeader-container{
+        min-width: 260px;
+        position: static;
+        width:100%;
+    }    
+    #divNavRight{
+        display: block;
+        width: 100%;        
+    }      
+}
+/* TABLET RESPONSIVE STYLES */
+@media screen and (min-width: 641px) and (max-width: 768px){
+    .content{              
+        margin:5px;        
+        margin-bottom: 25px;
+        margin-top: 110px; 
+        min-height: 185px;min-width: 300px;
+        padding: 5px;       
+        width:auto;        
+    }
+    .content h2{    
+        text-align: left;
+    }
+    nav{      
+       left:40%;        
+    }    
+}
+/* DESKTOP RESPONSIVE STYLES */
+@media screen and (min-width: 769px){
+/*Original design for desktop, modification not needed */   
+}
