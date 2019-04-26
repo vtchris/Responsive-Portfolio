@@ -160,10 +160,7 @@ ul{
         font-size: 20px;
         /*left:2px; */       
         width:250px;        
-    }
-    footer{
-        position: relative;
-    }
+    }    
     header{
         width: 100%;
      }   
@@ -218,10 +215,9 @@ ul{
         margin:2px;
         height:250px;width:250px;    
     }
-    /* .stickyFooter{
-        position: fixed;
-        bottom:0;
-    } */
+    .position-mediaOverride{
+        position: relative;
+     }
     #divHeader-container{
         min-width: 260px;
         position: static;
@@ -233,10 +229,7 @@ ul{
     }      
 }
 /* TABLET RESPONSIVE STYLES */
-@media screen and (min-width: 641px) and (max-width: 768px){
-    footer{
-        position: relative;
-    }
+@media screen and (min-width: 641px) and (max-width: 768px){    
     .content{              
         margin:5px;        
         margin-bottom: 55px;
