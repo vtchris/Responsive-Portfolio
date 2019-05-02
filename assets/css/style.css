@@ -20,7 +20,7 @@ button{
 button:hover{
     background-color: #a6d8d6;
 }
-figure{
+figure{        
     display: inline-block;
     margin:5px;
     position: relative;
@@ -64,7 +64,7 @@ header{
     position: relative;
     width:982px;          
 }
-img{    
+img{       
     margin-right: 15px;    
 }
 nav{
