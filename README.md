@@ -1,3 +1,18 @@
+<h1><em>Responsive Portfolio</em></h1>
+
+Visit online at:
+https://vtchris.github.io/Responsive-Portfolio/
+
+<h2>Technology</h2>
+<ul>    
+    <li>HTML/CSS</li>
+</ul>
+
+<h2>Concepts Introduced</h2>
+<ul>    
+    <li>@Media Queries</li>
+</ul>
+
 # Responsive-Portfolio
 
 ### Assignment Two Instructions - (No Bootstrap)
