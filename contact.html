@@ -34,13 +34,22 @@
                 <li><input type="text" placeholder="example@gmail.com"></li>
                 <li><label>Message</label></li>
                 <li><textarea></textarea></li>
-                <li><button>Submit</button></li>
+                <li><button id="btnSubmit">Submit</button></li>
             </Ul>        
         </main>            
 
         <footer class="stickyFooter">
 
-        </footer>        
+        </footer>   
+        <script type="text/javascript">
+
+            var btnSubmit = document.getElementById("btnSubmit")
+            
+            btnSubmit.onclick = function () {
+                alert("Your early! Thanks for trying to contact me, this webpage is still a work in progress. For now, please contact me at vtchris.2357@gmail.com!")
+            }
+
+        </script>     
 
     </body>
 </html>
