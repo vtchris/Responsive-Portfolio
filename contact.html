@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <title>Chris Ross - Contact</title>
-        <meta http-equiv="Pragma" content="no-cache">
-        <meta name="viewport" content="width=device-width">
-        <link href="assets/css/style.css" rel="stylesheet">
-    </head>
-    <body>
-            
-            <div id="divHeader-container">
-                <header>
-                    <h1>Chris Ross</h1>
-                    <div id="divNavRight">
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    
-                    <img>
-                </header>
-            
+
+<head>
+    <title>Chris Ross - Contact</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="divHeader-container">
+        <header>
+            <h1>Chris Ross</h1>
+            <div id="divNavRight">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-        <main class="content">
+
+            <img>
+        </header>
+
+    </div>
+    <main class="content">
+        <form action="https://formspree.io/vtchris.2357@gmail.com" method="POST" >
             <h2>Contact</h2>
             <hr>
 
             <Ul>
                 <li><label>Name</label></li>
-                <li><input type="text" placeholder="John Smith" ></li>
+                <li><input type="text" name="name" placeholder="John Smith"></li>
                 <li><label>Email</label></li>
-                <li><input type="text" placeholder="example@gmail.com"></li>
+                <li><input type="text" name="email" placeholder="example@gmail.com"></li>
                 <li><label>Message</label></li>
-                <li><textarea></textarea></li>
+                <li><textarea name="message"></textarea></li>
                 <li><button id="btnSubmit">Submit</button></li>
-            </Ul>        
-        </main>            
+            </Ul>
+        </form>
+    </main>
 
-        <footer class="stickyFooter">
+    <footer class="stickyFooter">
 
-        </footer>   
-        <script type="text/javascript">
+    </footer>
+    <!--
+    <script type="text/javascript">
 
-            var btnSubmit = document.getElementById("btnSubmit")
-            
-            btnSubmit.onclick = function () {
-                alert("Your early! Thanks for trying to contact me, this webpage is still a work in progress. For now, please contact me at vtchris.2357@gmail.com!")
-            }
+        var btnSubmit = document.getElementById("btnSubmit")
 
-        </script>     
+        btnSubmit.onclick = function () {
+            alert("Your early! Thanks for trying to contact me, this webpage is still a work in progress. For now, please contact me at vtchris.2357@gmail.com!")
+        }
 
-    </body>
+    </script>-->
+
+</body>
+
 </html>
